@@ -1,0 +1,130 @@
+body {
+  font-family: 'Oswald', Arail, sans-serif;
+}
+
+.main {
+  text-align: center;
+  align-items: center;
+  background: url("http://i.imgur.com/VaC8mKn.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 550px;
+  color: #FFF;
+  font-size: 30px;
+  padding: 8px 10px;
+  text-decoration: none;
+}
+
+#heading {
+  font-weight: bold;
+  font-size: 120px;
+  text-transform: uppercase;
+}
+
+html, body {
+  margin: 0;
+}
+
+.main .container {
+  position: relative;
+  top: 13px;
+}
+
+.container {
+  max-width: 940px;
+  margin: 0 auto;
+}
+
+a.button:hover {
+  background: #e52b2b;
+  color: #FFF;
+}
+
+/* FEATURES */
+
+.features {
+  background-color: #000;
+  padding: 80px 0 80px;
+  text-align: center;
+}
+
+.features .col {
+  float: left;
+  padding: 10px;
+  width: 28%;
+}
+
+.features h2 {
+  color: #FFF;
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.features p {
+  color: #FFF;
+  font-size: 25px;
+  line-height: 30px;
+  margin-bottom: 20px;
+}
+
+.features {
+  background-color: #000;
+  color: Blue;
+  font-size: 18px;
+  padding: 8px 30px;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.col:hover {
+  background-color: #e52b2b;
+  color: White;
+}
+
+/* SECOND SECTION */
+
+.second{
+  text-align: center;
+  align-items: center;
+  background: url("http://i.imgur.com/VaC8mKn.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 380px;
+  color: #FFF;
+  font-size: 30px;
+  padding: 40px 10px;
+  text-decoration: none;
+}
+
+/* BUTTONS */
+
+.button {
+  background: #000;
+  color: #fff;
+  font-weight: bold;
+  padding: 12px 36px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+/* FOOTER */
+
+.footer {
+  background-color: #000;
+  padding: 5px 0 5px;
+  text-align: right;
+  font-size: 20px;
+  color: #fff;
+  line-height: 2px;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.footer a:hover {
+  color: #e52b2b;
+}
